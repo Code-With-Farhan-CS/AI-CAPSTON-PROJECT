@@ -4,8 +4,7 @@
 # from .templates import router as templates_router
 # from .refinement import router as refiner_router
 
-from ..core.database import Base
 from .memory import UserMemory
-from .generation import Generation
+from .generate import Generation
 
-__all__ = ["Base", "UserMemory", "Generation"]
+__all__ = ["UserMemory", "Generation"]
